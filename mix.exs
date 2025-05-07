@@ -8,7 +8,8 @@ defmodule Fab.Word.MixProject do
       version: "1.0.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      package: package()
     ]
   end
 
@@ -24,5 +25,15 @@ defmodule Fab.Word.MixProject do
       {:dialyxir, "== 1.4.5", only: :dev, runtime: false},
       {:ex_doc, "== 0.37.3", only: :dev, runtime: false}
     ]
+  end
+
+  defp package do
+    %{
+      authors: ["Anthony Smith"],
+      licenses: ["MIT"],
+      links: %{
+        GitHub: "https://github.com/Fab-Elixir/fab_word"
+      }
+    }
   end
 end
