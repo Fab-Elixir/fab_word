@@ -16,5 +16,5 @@ end
 
 ## Important Links
 
-- [Documentation](https://hexdocs.pm/fab_word/).
+- [Documentation](https://hexdocs.pm/fab_word/)
 
